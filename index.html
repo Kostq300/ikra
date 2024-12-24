@@ -58,98 +58,6 @@ fpPromise
 
 
 </script>	
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .form-container {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        width: 300px;
-        position: relative;
-    }
-    .form-container h2 {
-        text-align: center;
-    }
-    .form-container .close-button {
-        position: absolute;
-        top: -5px;
-        left: 5px;
-        background: none;
-        border: none;
-        color: #fff;
-        font-size: 18px;
-        cursor: pointer;
-        height: 20px;
-        width: 100px;
-    }
-    .form-container input,
-    .form-container select,
-    .form-container button {
-        width: 95%;
-        padding: 10px;
-        margin: 10px 0;
-        border: none;
-        border-radius: 5px;
-    }
-    .form-container button {
-        background-color: #ff4500;
-        color: #fff;
-        font-size: 16px;
-        cursor: pointer;
-    }
-</style>
-<script>
-    function closeForm() {
-        document.querySelector('.form-container').style.display = 'none';
-    }
-
-    async function sendOrder() {
-        const name = document.getElementById('name').value;
-        const phone = document.getElementById('phone').value;
-        const city = document.getElementById('city').value;
-        const product = document.getElementById('product').value;
-
-        if (!name || !phone || !city || !product) {
-            alert('Пожалуйста, заполните все поля.');
-            return;
-        }
-
-        const chatId = '-4680050728';
-        const token = '7559582061:AAFvBFeDHUpc9Au4xe5HFrLun6G4iTlgOHQ';
-        const message = `Новый заказ:\n\nИмя: ${name}\nТелефон: ${phone}\nГород: ${city}\nТовар: ${product}`;
-
-        const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ chat_id: chatId, text: message })
-            });
-
-            if (response.ok) {
-                alert('Заявка успешно отправлена!');
-                document.getElementById('orderForm').reset();
-            } else {
-                alert('Ошибка при отправке заявки.');
-            }
-        } catch (error) {
-            alert('Ошибка при соединении с Telegram.');
-        }
-    }
-</script>
 </head>
 
 <body>
@@ -203,7 +111,7 @@ fpPromise
 			<div class="page__img-decor">
 				<div class="page__container">
 					<div class="page__block block-page">
-						<!-- <a href="#" data-popup="#block-popup"all-popup" class="block-page__action action">
+						<!-- <a href="#" data-popup="#all-popup" class="block-page__action action">
 								<div  class="action__text">В преддверии Чёрной пятницы закажи по акции <span>1+1=3</span> и получи <span>скидку</span> на следующий заказ <span>+ бесплатная доставка</span></div>
 							</a> -->
 						<div class="block-page__items">
@@ -252,7 +160,7 @@ fpPromise
 								<div class="block-page__text">третя <span>банка в подарунок!</span>
 								</div>
 								<div class="block-page__button">
-									<button class="block__button" type="button" data-popup="#block-popup"all-popup">КУПИТИ ПО АКЦІЇ 1+1=3</button>
+									<button class="block__button" type="button" data-popup="#all-popup">КУПИТИ ПО АКЦІЇ 1+1=3</button>
 								</div>
 							</div>
 						</div>
@@ -289,13 +197,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>500г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 590 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"block-popup">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#block-popup">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1180 грн.</span></div>
 									<div class="price__sub-text">При покупці двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"block-popup">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#block-popup">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -322,13 +230,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>500г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 550 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"salmon-popup">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#salmon-popup">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1100 грн.</span></div>
 									<div class="price__sub-text">При покупці двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"salmon-popup">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#salmon-popup">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -357,13 +265,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>250г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 550 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"paddlefish-popup">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#paddlefish-popup">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1100 грн.</span></div>
 									<div class="price__sub-text">При покупці двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"paddlefish-plus">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#paddlefish-plus">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -392,13 +300,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>500г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 800 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"paddlefish-big">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#paddlefish-big">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1600 грн.</span></div>
 									<div class="price__sub-text">При покупці двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"paddlefish-big-plus">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#paddlefish-big-plus">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -427,13 +335,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>100г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 900 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"sturgeon-popup">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#sturgeon-popup">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1 800 грн.</span></div>
 									<div class="price__sub-text">При покупці двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"sturgeon-plus">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#sturgeon-plus">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -463,13 +371,13 @@ fpPromise
 								<div class="price__item">
 									<div class="price__weight">Вага: <span>500 г</span></div>
 									<div class="price__sub-weight">Ціна:<span> 500 грн.</span></div>
-									<button class="sub-price__button" type="button" data-popup="#block-popup"pike-popup">КУПИТИ</button>
+									<button class="sub-price__button" type="button" data-popup="#pike-popup">КУПИТИ</button>
 								</div>
 								<div class="price__block">
 									<div class="price__title">Акція 1+1=3</div>
 									<div class="price__text">Ціна: <span>1000 грн.</span></div>
 									<div class="price__sub-text">При купівлі двох банок, третя банка в подарунок!</div>
-									<button class="price__button" type="button" data-popup="#block-popup"pike-plus">КУПИТИ</button>
+									<button class="price__button" type="button" data-popup="#pike-plus">КУПИТИ</button>
 								</div>
 							</div>
 						</div>
@@ -1214,98 +1122,6 @@ $('.owl-carousel').owlCarousel({
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ikra Form</title>
     <!-- Добавьте другие метатеги и стили здесь -->
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .form-container {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        width: 300px;
-        position: relative;
-    }
-    .form-container h2 {
-        text-align: center;
-    }
-    .form-container .close-button {
-        position: absolute;
-        top: -5px;
-        left: 5px;
-        background: none;
-        border: none;
-        color: #fff;
-        font-size: 18px;
-        cursor: pointer;
-        height: 20px;
-        width: 100px;
-    }
-    .form-container input,
-    .form-container select,
-    .form-container button {
-        width: 95%;
-        padding: 10px;
-        margin: 10px 0;
-        border: none;
-        border-radius: 5px;
-    }
-    .form-container button {
-        background-color: #ff4500;
-        color: #fff;
-        font-size: 16px;
-        cursor: pointer;
-    }
-</style>
-<script>
-    function closeForm() {
-        document.querySelector('.form-container').style.display = 'none';
-    }
-
-    async function sendOrder() {
-        const name = document.getElementById('name').value;
-        const phone = document.getElementById('phone').value;
-        const city = document.getElementById('city').value;
-        const product = document.getElementById('product').value;
-
-        if (!name || !phone || !city || !product) {
-            alert('Пожалуйста, заполните все поля.');
-            return;
-        }
-
-        const chatId = '-4680050728';
-        const token = '7559582061:AAFvBFeDHUpc9Au4xe5HFrLun6G4iTlgOHQ';
-        const message = `Новый заказ:\n\nИмя: ${name}\nТелефон: ${phone}\nГород: ${city}\nТовар: ${product}`;
-
-        const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ chat_id: chatId, text: message })
-            });
-
-            if (response.ok) {
-                alert('Заявка успешно отправлена!');
-                document.getElementById('orderForm').reset();
-            } else {
-                alert('Ошибка при отправке заявки.');
-            }
-        } catch (error) {
-            alert('Ошибка при соединении с Telegram.');
-        }
-    }
-</script>
 </head>
 <body>
     <!-- Ваш контент на странице -->
