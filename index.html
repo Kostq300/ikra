@@ -101,7 +101,7 @@
 </div>
 </div>
 
-<form action="https://unagi.fun/ferma/checkout.php" class="order_form" method="post"><input class="field" name="name" placeholder="Введіть Ваше ПІБ" required="" type="text" value=""> <input class="field" name="phone" placeholder="Введіть Ваш телефон" required="" type="tel" value=""><button class="button" type="submit">Зробити замовлення »</button> <input name="offer" type="hidden" value="Горбуша"> <input name="product_price" type="hidden" value="440"> <input name="product_name" type="hidden" value="Горбуша"> <input name="utm" type="hidden" value="utm"> <input name="fb_ad" type="hidden" value=""></form>
+<button class="button open-modal-btn" type="submit" onclick="openModal()">Зробити замовлення »</button> 
 
 <p class="deadline_text">КІЛЬКІСТЬ ЗА СПЕЦІАЛЬНОЮ ЦІНОЮ ОБМЕЖЕНО</p>
 </div>
@@ -528,5 +528,87 @@
 </section>
 </div>
 <!-- /footer -->
+
+
+
+<script>
+    function openModal() {
+        const modal = document.getElementById('orderModal');
+        modal.style.display = 'flex';
+        setTimeout(() => {
+            modal.classList.add('active');
+        }, 10);
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('orderModal');
+        modal.classList.remove('active');
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 300);
+    }
+
+    // Закрытие по клику вне формы
+    document.getElementById('orderModal').addEventListener('click', function(event) {
+        if (event.target === this) {
+            closeModal();
+        }
+    });
+
+    async function sendOrder() {
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const city = document.getElementById('city').value;
+        const product = document.getElementById('product').value;
+
+        if (!name || !phone || !city || !product) {
+            alert('Пожалуйста, заполните все поля.');
+            return;
+        }
+
+        const chatId = '-4680050728';
+        const token = '7559582061:AAFvBFeDHUpc9Au4xe5HFrLun6G4iTlgOHQ';
+        const message = `Новый заказ:\n\nИмя: ${name}\nТелефон: ${phone}\nГород: ${city}\nТовар: ${product}`;
+
+        const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ chat_id: chatId, text: message })
+            });
+
+            if (response.ok) {
+                alert('Заявка успешно отправлена!');
+                document.getElementById('orderForm').reset();
+                closeModal();
+            } else {
+                alert('Ошибка при отправке заявки.');
+            }
+        } catch (error) {
+            alert('Ошибка при соединении с Telegram.');
+        }
+    }
+</script>
+
+<div class="modal" id="orderModal">
+    <div class="form-container">
+        <button class="close-button" onclick="closeModal()">Закрыть</button>
+        <h2>Ваш заказ</h2>
+        <form id="orderForm">
+            <input type="text" id="name" placeholder="Имя" required>
+            <input type="text" id="phone" placeholder="Телефон" required>
+            <input type="text" id="city" placeholder="Город" required>
+            <select id="product" required>
+                <option value="" disabled selected>Выберите товар</option>
+                <option value="Икра1">Икра1</option>
+                <option value="Икра2">Икра2</option>
+                <option value="Икра3">Икра3</option>
+            </select>
+            <button type="button" onclick="sendOrder()">Отправить заявку</button>
+        </form>
+    </div>
+</div>
 
 </body></html>

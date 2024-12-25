@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ікра Лосося</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="order_block">
+        <div class="price_block clearfix">
+            <div class="price_item old">
+                <div class="text">Звичайна ціна:</div>
+                <div class="value">950 грн.</div>
+            </div>
+            <div class="price_item new">
+                <div class="text">Ціна за акцією до кінця тижня:</div>
+                <div class="value">499 грн.</div>
+            </div>
+        </div>
+
+        <form action="https://unagi.fun/ferma/checkout.php" class="order_form" method="post" id="orderForm">
+            <input class="field" name="name" placeholder="Введіть Ваше ПІБ" required type="text">
+            <input class="field" name="phone" placeholder="Введіть Ваш телефон" required type="tel">
+            <button class="button" type="submit">Зробити замовлення »</button>
+            <input name="offer" type="hidden" value="Горбуша">
+            <input name="product_price" type="hidden" value="440">
+            <input name="product_name" type="hidden" value="Горбуша">
+            <input name="utm" type="hidden" value="utm">
+            <input name="fb_ad" type="hidden" value="">
+        </form>
+
+        <p class="deadline_text">КІЛЬКІСТЬ ЗА СПЕЦІАЛЬНОЮ ЦІНОЮ ОБМЕЖЕНО</p>
+    </section>
+
+    <section class="order_section in-blue_title">
+        <div class="offer_section">
+            <img alt="Икра: Кеты, Горбуши, Осётра" src="keta.jpg">
+        </div>
+
+        <div class="text_block">
+            <center>
+                <h1>Ікра Лосося</h1>
+            </center>
+
+            <center>
+                <img alt="Икра: Кеты, Горбуши, Осётра" src="keta1.png">
+            </center>
+            &nbsp;
+
+            <center>
+                <h4>Купуючі 2 баночки по 0.5 кг.</h4>
+                <h4>Отримуєте ще 0,5 кг. в 🎁 ПОДАРУНОК (можна різну)</h4>
+            </center>
+            &nbsp;
+
+            <p>✅ Розмір ікринок: 4-5 мм у діаметрі</p>
+            <p>✅ Колір: янтарний</p>
+            <p>✅ Консистенція – суха. Не більше 10% рідини</p>
+            <p>✅ Склад: ікра лосося, сіль, олія</p>
+        </div>
+    </section>
+</body>
+</html>
