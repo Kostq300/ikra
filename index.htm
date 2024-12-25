@@ -583,120 +583,49 @@
                 /></picture>
               </div>
             </div>
+
+
             <div class="stock__block">
-              <form
-                data-dev=""
-                data-ajax=""
-                action="files/sendmail/sendmail.php"
-                method="POST"
-                class="form__body"
-              >
-                <input type="hidden" name="tovar" value="Акція 1+1=3" />
-                <input type="hidden" name="requestId" value="" />
-
-                <div class="stock__title">
-                  При замовленні двох <span>банок ікри, </span>третя
-                  <span>банка в подарунок!</span>
+              
+              <div class="caviar_form_wrapper_x29">
+                <div class="caviar_container_x29">
+                    <div class="caviar_promo_text_x29">
+                        При замовленні двох <span class="caviar_highlight_x29">банок ікри</span>, третя <span class="caviar_highlight_x29">банка в подарунок!</span>
+                    </div>
+                    
+                    <form id="caviarOrderForm_x29" onsubmit="submitCaviarForm_x29(event)">
+                        <div class="caviar_input_group_x29">
+                            <input type="text" id="caviarName_x29" name="caviarName_x29" placeholder="Ім'я" required class="caviar_field_x29">
+                        </div>
+        
+                        <div class="caviar_input_group_x29">
+                            <input type="tel" id="caviarPhone_x29" name="caviarPhone_x29" placeholder="+38_ __ __ __" required class="caviar_field_x29 caviar_phone_field_x29">
+                        </div>
+        
+                        <div class="caviar_input_group_x29">
+                            <input type="text" id="caviarCity_x29" name="caviarCity_x29" placeholder="Місто" required class="caviar_field_x29">
+                        </div>
+        
+                        <div class="caviar_input_group_x29">
+                            <select id="caviarProduct_x29" name="caviarProduct_x29" required class="caviar_field_x29 caviar_select_x29">
+                                <option value="">Вибір товару</option>
+                                <option value="Кета">Кета: 2 по 0.5 = 1180 грн. +0.5 в Подарунок!</option>
+                                <option value="Горбуша">Горбуша: 2 по 0.5 = 1100 грн. +0.5 в Подарунок!</option>
+                                <option value="Веслонос_0.5">Веслонос: 2 по 0.5 = 1600 грн. +0.5 в Подарунок!</option>
+                                <option value="Веслонос_0.25">Веслонос: 2 по 0.25 = 1100 грн. +0.25 в Подарунок!</option>
+                                <option value="Осетер">Осетер: 2 по 0.100 = 1800 грн. + 0.100 в Подарунок!</option>
+                                <option value="Щука">Щука: 2 по 0.5 = 1000 грн. +0.5 в Подарунок!</option>
+                            </select>
+                        </div>
+        
+                        <button type="submit" class="caviar_submit_btn_x29">Надіслати</button>
+                    </form>
                 </div>
-
-                <div class="form__item">
-                  <!-- <label for="forName" class="form__label">Имя*:</label> -->
-                  <input
-                    id="forName"
-                    autocomplete="off"
-                    type="text"
-                    name="name"
-                    data-error="Помилка"
-                    data-required=""
-                    data-no-focus-classes=""
-                    data-validate=""
-                    placeholder="Ім'я"
-                    class="form__input _req"
-                    required=""
-                  />
-                </div>
-                <div class="form__item">
-                  <!-- <label for="forPhone" class="form__label">Телефон*:</label> -->
-                  <input
-                    id="forPhone"
-                    autocomplete="off"
-                    type="text"
-                    name="phone"
-                    data-error="Помилка"
-                    data-required=""
-                    data-no-focus-classes=""
-                    data-validate=""
-                    placeholder="Телефон"
-                    class="form__input _req"
-                    required=""
-                  />
-                </div>
-                <div class="form__item">
-                  <!-- <label for="forcity" class="form__label">Город:</label> -->
-                  <input
-                    id="forcity"
-                    autocomplete="off"
-                    type="text"
-                    name="city"
-                    data-error="Помилка"
-                    data-required=""
-                    data-no-focus-classes=""
-                    data-validate=""
-                    placeholder="Місто"
-                    class="form__input _req"
-                    required=""
-                  />
-                </div>
-                <div class="form__item">
-                  <div class="form__label">Вибір товару</div>
-                  <select name="price" class="form__select">
-                    <option
-                      value="Кета: 2 по 0.5 = 1180 грн. +0.5 в Подарунок!"
-                      selected=""
-                    >
-                      Кета: 2 по 0.5 = 1180 грн. +0.5 в Подарунок!
-                    </option>
-                    <option
-                      value="Горбуша: 2 по 0.5 = 1100 грн. +0.5 в Подарунок!"
-                    >
-                      Горбуша: 2 по 0.5 = 1100 грн. +0.5 в Подарунок!
-                    </option>
-                    <option
-                      value="Веслонос: 2 по 0.5 = 1600 грн. +0.5 в Подарунок!"
-                    >
-                      Веслонос: 2 по 0.5 = 1600 грн. +0.5 в Подарунок!
-                    </option>
-                    <option
-                      value="Веслонос: 2 по 0.25 = 1100 грн. +0.25 в Подарунок!"
-                    >
-                      Веслонос: 2 по 0.25 = 1100 грн. +0.25 в Подарунок!
-                    </option>
-                    <option
-                      value="Осетер: 2 по 0.100 = 1800 грн. + 0.100 в Подарунок!"
-                    >
-                      Осетер: 2 по 0.100 = 1800 грн. + 0.100 в Подарунок!
-                    </option>
-                    <option
-                      value="Щука: 2 по 0.5 = 1000 грн. +0.5 в Подарунок!"
-                    >
-                      Щука: 2 по 0.5 = 1000 грн. +0.5 в Подарунок!
-                    </option>
-                  </select>
-                </div>
-                <div
-                  style="
-                    text-align: center;
-                    font-size: 16px;
-                    margin: 20px;
-                    display: none;
-                  "
-                  class="reload_warning"
-                >
-                  Обновіть, будь ласка, сторінку для надсилання заявки.
-                </div>
-                <button type="submit" class="form__button">Надіслати</button>
-              </form>
             </div>
+
+            </div>
+
+
           </div>
         </div>
         <div class="about">
@@ -1140,6 +1069,51 @@
 			alert('Ошибка при соединении с Telegram.');
 		}
 	}
+</script>
+<script>
+  async function submitCaviarForm_x29(event) {
+      event.preventDefault();
+      
+      const name = document.getElementById('caviarName_x29').value;
+      const phone = document.getElementById('caviarPhone_x29').value;
+      const city = document.getElementById('caviarCity_x29').value;
+      const product = document.getElementById('caviarProduct_x29');
+      const productText = product.options[product.selectedIndex].text;
+
+      const token = '7559582061:AAFvBFeDHUpc9Au4xe5HFrLun6G4iTlgOHQ';
+      const chatId = '-4680050728';
+      
+      const message = `
+📦 Нове замовлення!
+👤 Ім'я: ${name}
+📱 Телефон: ${phone}
+🏙 Місто: ${city}
+🛍 Товар: ${productText}`;
+
+      try {
+          const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                  chat_id: chatId,
+                  text: message,
+                  parse_mode: 'HTML'
+              })
+          });
+
+          if (response.ok) {
+              alert('Дякуємо за замовлення! Ми зв\'яжемося з вами найближчим часом.');
+              document.getElementById('caviarOrderForm_x29').reset();
+          } else {
+              alert('Виникла помилка при відправці замовлення. Будь ласка, спробуйте ще раз.');
+          }
+      } catch (error) {
+          console.error('Error:', error);
+          alert('Виникла помилка при відправці замовлення. Будь ласка, спробуйте ще раз.');
+      }
+  }
 </script>
   </body>
 </html>
