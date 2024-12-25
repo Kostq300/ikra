@@ -193,7 +193,7 @@
                     <button
                       class="block__button open-modal-btn"
                       type="button"
-                      onclick="openModal()"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ ПО АКЦІЇ 1+1=3
                     </button>
@@ -260,7 +260,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#block-popup"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -320,7 +320,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#salmon-popup"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -379,7 +379,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#paddlefish-plus"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -439,7 +439,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#paddlefish-big-plus"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -498,7 +498,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#sturgeon-plus"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -556,7 +556,7 @@
                     <button
                       class="price__button"
                       type="button"
-                      data-popup="#pike-plus"
+                      onclick="openModal('orderModal8')"
                     >
                       КУПИТИ
                     </button>
@@ -950,13 +950,16 @@
 <div class="modal" id="orderModal1">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal1')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
 			<input type="text" id="city1" placeholder="Місто" required>
 			<select id="product1" required>
-				<option value="Ікра Кети 500г " >Ікра кети 500г</option>
+				<option value="Кета: 0.5 = 590 грн." >Кета: 0.5 = 590 грн.</option>
+        <option value="Кета: 2 по 0.5 = 1180 грн. + 0.5 в Подарунок!" >Кета: 2 по 0.5 = 1180 грн. + 0.5 в Подарунок!</option>
+        <option value="Кета: 3 по 0.5 = 1770 грн. + 0.5 в Подарунок!" >Кета: 3 по 0.5 = 1770 грн. + 0.5 в Подарунок!</option>
+        <option value="Кета: 4 по 0.5 = 2360 грн. + 0.5 в Подарунок!" >Кета: 4 по 0.5 = 2360 грн. + 0.5 в Подарунок!</option>
 			</select>
 			<button type="button" onclick="sendOrder('1')">Надіслати заявку</button>
 		</form>
@@ -966,13 +969,16 @@
 <div class="modal" id="orderModal2">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal2')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
 			<input type="text" id="city1" placeholder="Місто" required>
 			<select id="product1" required>
-				<option value="Ікра Горбуші 500г " >Ікра Горбуші 500г</option>
+				<option value="Горбуша: 0.5 = 550 грн." >Горбуша: 0.5 = 550 грн.</option>
+        <option value="Горбуша: 2 по 0.5 = 1100 грн. + 0.5 в Подарунок!" >Горбуша: 2 по 0.5 = 1100 грн. + 0.5 в Подарунок!</option>
+        <option value="Горбуша: 3 по 0.5 = 1650 грн. + 0.5 в Подарунок!" >Горбуша: 3 по 0.5 = 1650 грн. + 0.5 в Подарунок!</option>
+        <option value="Горбуша: 4 по 0.5 = 2200 грн. + 2 по 0.5 в Подарунок!" >Горбуша: 4 по 0.5 = 2200 грн. + 2 по 0.5 в Подарунок!</option>
 			</select>
 			<button type="button" onclick="sendOrder('1')">Надіслати заявку</button>
 		</form>
@@ -982,13 +988,16 @@
 <div class="modal" id="orderModal3">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal3')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
 			<input type="text" id="city1" placeholder="Місто" required>
 			<select id="product1" required>
-				<option value="Ікра Форелі 500г " >Ікра Форелі 500г</option>
+				<option value="Форель: 0.5 = 550 грн." >Форель: 0.5 = 550 грн.</option>
+        <option value="Форель: 2 по 0.5 = 1100 грн. + 0.5 в Подарунок!" >Форель: 2 по 0.5 = 1100 грн. + 0.5 в Подарунок!</option>
+        <option value="Форель: 3 по 0.5 = 1650 грн. + 0.5 в Подарунок!" >Форель: 3 по 0.5 = 1650 грн. + 0.5 в Подарунок!</option>
+        <option value="Форель: 4 по 0.5 = 2200 грн. + 2 по 0.5 в Подарунок!" >Форель: 4 по 0.5 = 2200 грн. + 2 по 0.5 в Подарунок!</option>
 			</select>
 			<button type="button" onclick="sendOrder('1')">Надіслати заявку</button>
 		</form>
@@ -998,7 +1007,7 @@
 <div class="modal" id="orderModal4">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal4')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
@@ -1014,7 +1023,7 @@
 <div class="modal" id="orderModal5">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal5')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
@@ -1030,13 +1039,16 @@
 <div class="modal" id="orderModal6">
 	<div class="form-container">
 		<button class="close-button" onclick="closeModal('orderModal6')">Закрити</button>
-		<h2>Ваш заказ</h2>
+		<h2>Ваше замовлення</h2>
 		<form id="orderForm1">
 			<input type="text" id="name1" placeholder="Ім'я" required>
 			<input type="text" id="phone1" placeholder="Телефон" required>
 			<input type="text" id="city1" placeholder="Місто" required>
 			<select id="product1" required>
-				<option value="Ікра Щуки 500г " >Ікра Щуки 500г</option>
+				<option value="Щука: 0.5 = 500 грн." >Щука: 0.5 = 500 грн.</option>
+        <option value="Щука: 2 по 0.5 = 1000 грн. + 0.5 в Подарунок!" >Щука: 2 по 0.5 = 1000 грн. + 0.5 в Подарунок!</option>
+        <option value="Щука: 3 по 0.5 = 1500 грн. + 0.5 в Подарунок!" >Щука: 3 по 0.5 = 1500 грн. + 0.5 в Подарунок!</option>
+        <option value="Щука: 4 по 0.5 = 2000 грн. + 2 по 0.5 в Подарунок!" >Щука: 4 по 0.5 = 2000 грн. + 2 по 0.5 в Подарунок!</option>
 			</select>
 			<button type="button" onclick="sendOrder('1')">Надіслати заявку</button>
 		</form>
@@ -1044,6 +1056,29 @@
 </div>
 
 <!-- МОДАЛКА 1+1=3 -->
+
+<div class="modal" id="orderModal8">
+	<div class="form-container">
+		<button class="close-button" onclick="closeModal('orderModal8')">Закрити</button>
+		<h2>Ваше замовлення</h2>
+		<form id="orderForm1">
+			<input type="text" id="name1" placeholder="Ім'я" required>
+			<input type="text" id="phone1" placeholder="Телефон" required>
+			<input type="text" id="city1" placeholder="Місто" required>
+			<select id="product1" required>
+				<option value="" disabled selected >Обрати ікру</option>
+        <option value="Кета 1+1=3">Ікра Кети 1+1=3 (1.5кг) = 1180 грн.</option>
+        <option value="Горбуша 1+1=3">Ікра Горбуші 1+1=3 (1.5кг) = 1100 грн.</option>
+        <option value="Форель 1+1=3">Ікра Форелі 1+1=3 (1.5кг) = 1100 грн.</option>
+        <option value="Веслонос 1+1=3">Ікра Веслоноса 1+1=3 (1.5кг) = 1600 грн.</option>
+        <option value="Осетр 1+1=3">Ікра Осетра 1+1=3 (300г) = 1800 грн.</option>
+        <option value="Щука 1+1=3">Ікра Щуки 1+1=3 (1.5кг) = 1000 грн.</option>
+        <option value="Комбинация 1+1=3">Скомбінувати 1+1=3 (Уточнює оператор)</option>
+			</select>
+			<button type="button" onclick="sendOrder('1')">Надіслати заявку</button>
+		</form>
+	</div>
+</div>
 
 <script>
 	function openModal(modalId) {
