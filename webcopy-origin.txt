@@ -1,0 +1,300 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\ajax\libs\OwlCarousel2\2.3.4\assets\owl.carousel.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\ajax\libs\OwlCarousel2\2.3.4\assets\owl.theme.default.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.video.play.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\ajax\libs\OwlCarousel2\2.3.4\assets\owl.video.play.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\ajax\libs\OwlCarousel2\2.3.4\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.7.1.slim.js
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\jquery-3.7.1.slim.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\css-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap);@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap);.select__value:before,[class*=_icon-]:after,[class*=_icon-]:before,body{line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}a,button{color:inherit}.options,.spollers__item,.wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal}.checkbox:not(:last-child),.options__item:not(:last-child){margin-bottom:.3125em}@font-face{font-family:icons;font-display:swap;src:url(../fonts/icons.woff2) format("woff2"),url(../fonts/icons.woff) format("woff
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\css-3
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\css-2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhzg.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\bebasneue\v14\JTUSjIg69CK48gW7PXoo9Wlhzg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u-w4BMUTPHjxsIPx-oPCc.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u-w4BMUTPHjxsIPx-oPCc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AXC-v.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u8w4BMUTPHh30AXC-v.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAXC-v.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u8w4BMUTPHjxsAXC-v.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPHA.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u9w4BMUTPHh50XSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHA.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u9w4BMUTPHh6UVSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPHA.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u9w4BMUTPHh7USSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6uyw4BMUTPHjx4wWw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI3wi_Gwfo.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u_w4BMUTPHjxsI3wi_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u_w4BMUTPHjxsI5wq_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\s\lato\v24\S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://gurman-ikra.pro/
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\index.htm
+Content Type: text/html
+
+Uri: https://gurman-ikra.pro/css/style.min.css
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\css\style.min.css
+Content Type: text/css
+
+Uri: https://gurman-ikra.pro/favicon.ico
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://gurman-ikra.pro/fonts/icons.woff
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\fonts\icons.woff
+Content Type: font/woff
+
+Uri: https://gurman-ikra.pro/fonts/icons.woff2
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\fonts\icons.woff2
+Content Type: font/woff2
+
+Uri: https://gurman-ikra.pro/img/action.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\action.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/action.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\action.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/catalog/1.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\1.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/catalog/1.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\1.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/catalog/gorbysha.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\gorbysha.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/catalog/gorbysha.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\gorbysha.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/catalog/keta.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\keta.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/catalog/keta.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\keta.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/catalog/osetr.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\osetr.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/catalog/osetr.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\osetr.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/catalog/veslovyx.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\veslovyx.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/catalog/veslovyx.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\catalog\veslovyx.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/decor.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\decor.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/decor.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\decor.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home/cad0aedb809916d284c2b9ee9c9333bc.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\cad0aedb809916d284c2b9ee9c9333bc.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/home/cad0aedb809916d284c2b9ee9c9333bc.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\cad0aedb809916d284c2b9ee9c9333bc.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home/headerline.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\headerline.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/home/headerline.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\headerline.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home/home.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\home.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/home/home.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\home.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home/min-hom.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\min-hom.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/home/min-hom.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\min-hom.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home/min-home.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\min-home.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/home/min-home.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home\min-home.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/home2.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home2.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/home2.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\home2.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/icon/envelope.svg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\icon\envelope.svg
+Content Type: image/svg+xml
+
+Uri: https://gurman-ikra.pro/img/loading.gif
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\loading.gif
+Content Type: image/gif
+
+Uri: https://gurman-ikra.pro/img/map.jpg
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\map.jpg
+Content Type: image/jpeg
+
+Uri: https://gurman-ikra.pro/img/map.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\map.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/1.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\1.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/10.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\10.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/11.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\11.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/12.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\12.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/13.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\13.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/14.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\14.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/15.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\15.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/2.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\2.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/3.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\3.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/4.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\4.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/5.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\5.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/6.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\6.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/7.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\7.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/8.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\8.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/new-rev/9.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\new-rev\9.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/img/nova.png
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\nova.png
+Content Type: image/png
+
+Uri: https://gurman-ikra.pro/img/nova.webp
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\img\nova.webp
+Content Type: image/webp
+
+Uri: https://gurman-ikra.pro/js/app.js?_v=20230905183508
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\js\app.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/imask@7.6.1/dist/imask.js
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\imask@7.6.1\dist\imask.js
+Content Type: application/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?render=6LciolQqAAAAACEuJM7w1DaOj8xG9auKO6mdJv1q
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-133CG9MLXB
+File Name: C:\Downloaded Web Sites\gurman-ikra.pro\gtag\js
+Content Type: application/javascript
+
